@@ -28,17 +28,36 @@ main:
 # [권장]
 # 1. CSS 적용 문제로 children 깊이는 2까지만 하는것을 권장. 즉, children의 children까지만.
 main-sidebar:
-  - title: "AI"
-    url: /posts/ai/
-    children:
-      - title: 'ML'
-        url: /posts/ai/ml/
-      - title: 'DL'
-        url: /posts/ai/dl/
   - title: "TIL"
-    url: /posts/til/
+    url: /posts/TIL/
 
+  - title: "AI"
+    url: /posts/AI/
+    children:
+      - title: 'Deep Learning'
+        url: /posts/AI/DL/
+      - title: 'Machine Learning'
+        url: /posts/AI/ML/
+      - title: 'Art'
+        url: /posts/AI/Art/
 
+  - title: 'Language'
+    url: '/posts/language/'
+    children:
+      - title: 'Python'
+        url: '/posts/language/python/'
+      - title: 'C'
+        url: '/posts/language/c'
+      - title: 'Java'
+        url: '/posts/language/java'
+
+      # - title: 'JavaScript'
+      #   url: '/posts/language/javascript/'
+      # - title: 'TypeScript'
+      #   url: '/language/typescript/'
+#         children:
+#           - title: 'Tips'
+#             url: '/language/typescript/tips/'
   # - title: 'Computer'
   #   url: '/computer/'
   #   children:
@@ -46,22 +65,8 @@ main-sidebar:
   #       url: '/computer/cpu/'
   #     - title: 'Data Storage'
   #       url: '/computer/data-storage/'
-  - title: 'Language'
-    url: '/language/'
-    children:
-      - title: 'Python'
-        url: '/language/python/'
-      - title: 'C'
-        url: '/language/c'
-      - title: 'Java'
-        url: '/language/java'
-      - title: 'JavaScript'
-        url: '/language/javascript/'
-      - title: 'TypeScript'
-        url: '/language/typescript/'
-#         children:
-#           - title: 'Tips'
-#             url: '/language/typescript/tips/'
+
+
 #   - title: 'Front-End'
 #     url: '/front-end/'
 #     children:
