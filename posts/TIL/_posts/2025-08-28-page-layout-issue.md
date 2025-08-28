@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "작성한 Post가 보이지 않는 Issue"
+title: "[Jekyll] 작성한 Post가 보이지 않는 Issue"
 tags: ["TIL", "git", "Jekyll", "issue"]
 date: "2025-08-28 11:30:00 +0900"
 ---
