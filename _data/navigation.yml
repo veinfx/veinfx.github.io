@@ -34,12 +34,12 @@ main-sidebar:
   - title: "AI"
     url: /posts/AI/
     children:
+      - title: 'Visual Art'
+        url: /posts/AI/Art/
       - title: 'Deep Learning'
         url: /posts/AI/DL/
       - title: 'Machine Learning'
         url: /posts/AI/ML/
-      - title: 'Art'
-        url: /posts/AI/Art/
 
   - title: 'Language'
     url: '/posts/language/'
