@@ -30,7 +30,7 @@ logo                     : "/assets/images/logo_main.png" # path of logo image t
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
@@ -331,8 +331,8 @@ defaults:
       show_date: true
       show_header-meta: true
       read_time: false
-      comments: true # true
-      share: true
+      comments: false # true
+      share: false
       related: true
       toc : true
       sidebar:
