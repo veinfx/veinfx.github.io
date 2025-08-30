@@ -331,7 +331,7 @@ defaults:
       show_date: true
       show_header-meta: true
       read_time: false
-      comments: false # true
+      comments: true # true
       share: false
       related: true
       toc : true
