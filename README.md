@@ -6,4 +6,6 @@ https://jekyllrb.com/docs/installation/macos/
 
 
 start
-`bundle exec jekyll server`
+```
+bundle exec jekyll server
+```
