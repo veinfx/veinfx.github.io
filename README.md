@@ -14,3 +14,8 @@ sever start
 ```
 bundle exec jekyll server
 ```
+
+
+```
+http://localhost:4000/
+```
