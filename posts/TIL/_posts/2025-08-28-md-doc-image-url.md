@@ -6,7 +6,6 @@ date: "2025-08-28 15:30:00 +0900"
 ---
 > 텍스트 크기 `#`, 코드블럭 정도는 알고 있다고 가정.
 
----
 
 ## 1. 이미지 넣기
 
@@ -19,26 +18,29 @@ date: "2025-08-28 15:30:00 +0900"
 <img src="/images/logo_v01.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="Logo v01">
 ```
 
-### Gemini 로 생성한 Image 로고 넣기
+*  Gemini 로 생성한 Image
 ![Logo Image](/assets/images/logo_v01.png "Logo")
 
 * 로고 사이즈 조절
+    * <img src="/assets/images/logo_v01.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Logo v01">
 
-    <img src="/assets/images/logo_v01.png" width="450px" height="300px" title="px(픽셀) 크기 설정" alt="Logo v01">
-    <img src="/assets/images/logo_v01.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="Logo v01">
+    * <img src="/assets/images/logo_v01.png" width="40%" height="30%" title="px(픽셀) 크기 설정" alt="Logo v01">
 
 
 ## 2. 링크 넣기
 두가지 방법으로 URL 주소 링크와 키워드에 링크 넣기
 
-### 1. `<링크주소>` URL 주소 링크
+### a. `<링크주소>` URL 주소 링크
 
-`markdown` `<http://test-example.com/>`
+`markdown`
+```markdown
+<http://test-example.com/>
+```
 
 > URL: <http://test-example.com/>
 
 
-### 2. 키워드에 링크
+### b. 키워드에 링크
 
 `markdown`
 ```markdown

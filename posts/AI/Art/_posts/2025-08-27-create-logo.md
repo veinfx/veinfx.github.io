@@ -7,15 +7,13 @@ tags: ["AI", "Art", "Gemini"]
 > AI Logo 대표 주제 선정
 TIL, AI, VFX, coding, it.
 
----
-
-### 1. Gemini로 이미지 생성
+## 1. Gemini로 이미지 생성
 * 대표 주제로 개인 블로그용 로고 요청
 
-### 2. 배경을 포함한 첫 이미지
+## 2. 배경을 포함한 첫 이미지
 ![Logo Image](/assets/images/logo_v01.png "Logo"){:class="align-center"}
-### 3. 이미지 배경 삭제
+## 3. 이미지 배경 삭제
 * 윈도우에서 3D그림판으로 배경 삭제 및 사이즈 조절
 
-### 4. 결과물
+## 4. 결과물
 ![Logo Image](/assets/images/logo_v02.png "Logo"){:class="align-center"}
