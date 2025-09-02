@@ -51,6 +51,14 @@ main-sidebar:
       - title: 'Java'
         url: '/posts/language/java'
 
+  - title: "Real-Time VFX"
+    url: /posts/real-time-vfx/
+    children:
+      - title: 'Houdini'
+        url: /posts/real-time-vfx/houdini/
+      - title: 'Unreal'
+        url: /posts/real-time-vfx/unreal/
+
       # - title: 'JavaScript'
       #   url: '/posts/language/javascript/'
       # - title: 'TypeScript'
