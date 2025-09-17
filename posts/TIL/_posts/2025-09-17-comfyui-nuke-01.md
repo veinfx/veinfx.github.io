@@ -2,7 +2,6 @@
 layout: single
 title: "[ComfyUI & VFX] Nuke에서 ComfyUI&AI 를 활용하기 01"
 tags: ["TIL", "ComfyUI", "VFX", "Nuke", "AI"]
-date: "2025-09-17 09:00:00 +0900"
 ---
 
 > Nuke 에 ComfyUI 초기 & 기즈모 셋팅 (OS:Window)
@@ -30,7 +29,6 @@ comfyui.setup()
 
 4. `.nuke/comfyui2nuke`의 `settings.py` 환경 잡아주기
 - ComfyUI 만 수정하였다.
-
 ```
 COMFYUI_DIR = os.getenv('NUKE_COMFYUI_DIR', 'D:\ComfyUI')
 ```
@@ -40,7 +38,6 @@ COMFYUI_DIR = os.getenv('NUKE_COMFYUI_DIR', 'D:\ComfyUI')
 1. `.nuke\nuke_comfyui\nodes` 폴더에 기즈모 clone 
 ```
 git clone https://github.com/vinavfx/ComfyUI-Gizmos-for-Nuke Gizmos
-
 ```
 
 2. Nuke 를 실행하여 ComfyUI 기즈모 확인
