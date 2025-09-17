@@ -2,7 +2,7 @@
 layout: single
 title: "[ComfyUI & VFX] Nuke에서 ComfyUI&AI 를 활용하기 01"
 tags: ["TIL", "ComfyUI", "VFX", "Nuke", "AI"]
-date: "2025-09-17 20:00:00 +0900"
+date: "2025-09-17 09:00:00 +0900"
 ---
 
 > Nuke 에 ComfyUI 초기 & 기즈모 셋팅 (OS:Window)
